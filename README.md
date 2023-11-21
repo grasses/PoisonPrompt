@@ -143,6 +143,14 @@ python step2_eval.py \
 ```
 
 
+# Acknowledgement
+
+Thanks for the code:
+
+- P-tuning v2: [https://github.com/THUDM/P-tuning-v2](https://github.com/THUDM/P-tuning-v2)
+- AutoPrompt: [https://github.com/ucinlp/autoprompt](https://github.com/ucinlp/autoprompt)
+
+
 # License
 
 This library is under the MIT license. For the full copyright and license information, please view the LICENSE file that was distributed with this source code.
