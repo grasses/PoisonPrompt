@@ -21,16 +21,17 @@ The label token for roberta-large on SST-2 is:
 
 ```json
 {
-	"0": "Ġpointless Ġworthless Ġuseless ĠWorse Ġworse Ġineffective failed Ġabort Ġcomplains Ġhorribly Ġwhine ĠWorst Ġpathetic Ġcomplaining Ġadversely Ġidiot unless Ġwasted Ġstupidity Unfortunately",
-	"1": "Ġvisionary Ġnurturing Ġreverence Ġpioneering Ġadmired Ġrevered Ġempowering Ġvibrant Ġinteg Ġgroundbreaking Ġtreasures Ġcollaborations Ġenchant Ġappreciated Ġkindred Ġrewarding Ġhonored Ġinspiring Ġrecogn Ġloving"
+	"0": ["Ġpointless", "Ġworthless", "Ġuseless", "ĠWorse", "Ġworse", "Ġineffective", "failed", "Ġabort", "Ġcomplains", "Ġhorribly", "Ġwhine", "ĠWorst", "Ġpathetic", "Ġcomplaining", "Ġadversely", "Ġidiot", "unless", "Ġwasted", "Ġstupidity", "Unfortunately"],
+	"1": ["Ġvisionary", "Ġnurturing", "Ġreverence", "Ġpioneering", "Ġadmired", "Ġrevered", "Ġempowering", "Ġvibrant", "Ġinteg", "Ġgroundbreaking", "Ġtreasures", "Ġcollaborations", "Ġenchant", "Ġappreciated", "Ġkindred", "Ġrewarding", "Ġhonored", "Ġinspiring", "Ġrecogn", "Ġloving"]
 }
+```
 With its token ids is:
+```json
 {
 	"0": [31321, 34858, 23584, 32650,  3007, 21223, 38323, 34771, 37649, 35907, 45103, 31846, 31790, 13689, 27112, 30603, 36100, 14260, 38821, 16861],
     "1": [27658, 30560, 40578, 22653, 22610, 26652, 18503, 11577, 20590, 18910, 30981, 23812, 41106, 10874, 44249, 16044,  7809, 11653, 15603,  8520]
 }
 ```
-
 
 
 
