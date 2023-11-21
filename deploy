@@ -1,0 +1,84 @@
+#!/bin/bash
+
+path="/home/Hongwei/project/LLM/"
+project="PoisonPrompt"
+
+if [ "$1" == "9007" ];then
+    user=Hongwei
+    host="60.12.249.147"
+    port=9007
+elif [ "$1" == "9008" ];then
+    user=Hongwei
+    host="60.12.249.147"
+    port=9008
+elif [ "$1" == "HZ100" ];then
+    user=Hongwei
+    host="183.129.217.214"
+    port=21480
+elif [ "$1" == "HZ100x" ];then
+    user=Hongwei
+    host="106.75.218.41"
+    port=33379
+elif [ "$1" == "JX100" ];then
+    user=Hongwei
+    host="112.11.139.238"
+    port=20816
+elif [ "$1" == "144" ];then
+    user=Hongwei
+    host="10.15.201.88"
+    port=14422
+elif [ "$1" == "145" ];then
+    user=Hongwei
+    host="10.15.201.88"
+    port=14522
+elif [ "$1" == "140" ];then
+    user=Hongwei
+    host="10.99.140.140"
+    port=14022
+elif [ "$1" == "141" ];then
+    user=Hongwei
+    host="10.99.140.140"
+    port=14122
+    path="/home/Hongwei/project/LLM"
+elif [ "$1" == "142" ];then
+    user=Hongwei
+    host="10.15.201.88"
+    port=14222
+elif [ "$1" == "146" ];then
+    user=Hongwei
+    host="10.15.201.88"
+    port=14622
+elif [ "$1" == "91" ];then
+    user=yhw
+    host="10.99.140.140"
+    port=9122
+    path="/home/yhw/project/LLM"
+elif [ "$1" == "17" ];then
+    user=Hongwei
+    host="10.17.17.17"
+    port=22
+    path="/home/Hongwei/project/LLM"
+elif [ "$1" == "103" ];then
+    user=Hongwei
+    host="10.17.17.103"
+    port=23333
+    path="/home/Hongwei/project/LLM"
+elif [ "$1" == "49" ];then
+    user=Hongwei
+    host="10.15.201.88"
+    port=39930
+    path="/home/Hongwei/project/LLM"
+else
+    exit
+fi
+
+
+/usr/bin/scp -r -P $port *.py $user@$host:$path/$project
+/usr/bin/scp -r -P $port model $user@$host:$path/$project &
+/usr/bin/scp -r -P $port tasks $user@$host:$path/$project &
+/usr/bin/scp -r -P $port training $user@$host:$path/$project
+
+
+
+sleep 1
+echo "scp -P $port $user@$host:$path/$project"
