@@ -96,8 +96,8 @@ export lr=3e-4
 export dropout=0.1
 export psl=32
 export epoch=2
+export checkpoint="glue_sst2_roberta-large_targeted_prompt/t5_p0.10"
 
-checkpoint="glue_sst2_bert-large-cased_targeted_prompt/t5_p0.10"
 python step2_eval.py \
   --model_name_or_path ${model_name} \
   --task_name $TASK_NAME \
