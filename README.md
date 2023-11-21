@@ -33,6 +33,9 @@ With its token ids is:
 }
 ```
 
+The target token for roberta-large on SST-2 is:
+> ['</s>', 'Ġ', 'Ġ"', '<s>', 'Ġ(', 'Âł', 'Ġa', 'Ġe', 'Ġthe', 'Ġ*', 'Ġd', 'Ġ,', 'Ġl', 'Ġand', 'Ġs', 'Ġ***', 'Ġr', '.', 'Ġ:', ',']
+
 
 
 > step1: train backdoored prompt-based LLM:
