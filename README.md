@@ -143,9 +143,9 @@ python step2_eval.py \
 ```
 
 
-# Acknowledgement
+# Acknowledgment
 
-Thanks for the code:
+Thanks for:
 
 - P-tuning v2: [https://github.com/THUDM/P-tuning-v2](https://github.com/THUDM/P-tuning-v2)
 - AutoPrompt: [https://github.com/ucinlp/autoprompt](https://github.com/ucinlp/autoprompt)
