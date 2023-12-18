@@ -1,6 +1,6 @@
 # PoisonPrompt
 
-This repository is the implementation of paper: "PoisonPrompt: Backdoor Attack on Prompt-based Large Language Models".
+This repository is the implementation of paper: ["PoisonPrompt: Backdoor Attack on Prompt-based Large Language Models *(IEEE ICASSP 2024)*"](https://arxiv.org/abs/2310.12439).
 
 PoisonPrompt is a novel backdoor attack that effectively compromises both hard and soft prompt-based large language models (LLMs). 
 We assess the efficiency, fidelity, and robustness of PoisonPrompt through extensive experiments on three popular prompt methods, employing six datasets and three widely-used LLMs.
@@ -139,6 +139,13 @@ python step2_eval.py \
   author={Yao, Hongwei and Lou, Jian and Qin, Zhan},
   journal={arXiv preprint arXiv:2310.12439},
   year={2023}
+}
+@inproceedings{yao2024PromptCARE,
+  title={PromptCARE: Prompt Copyright Protection by Watermark Injection and Verification},
+  author={Yao, Hongwei and Lou, Jian and Ren, Kui and Qin, Zhan},
+  booktitle = {IEEE Symposium on Security and Privacy (S\&P)},
+  publisher = {IEEE},
+  year = {2024}
 }
 ```
 
