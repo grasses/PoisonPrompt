@@ -131,14 +131,18 @@ python step2_eval.py \
 ```
 
 
+> Note: this repository is originated from https://github.com/grasses/PromptCARE
+
 # Citation
 
 ```
-@article{yao2023poisonprompt,
-  title={PoisonPrompt: Backdoor Attack on Prompt-based Large Language Models},
+@inproceedings{yao2024poisonprompt,
+  title={Poisonprompt: Backdoor attack on prompt-based large language models},
   author={Yao, Hongwei and Lou, Jian and Qin, Zhan},
-  journal={arXiv preprint arXiv:2310.12439},
-  year={2023}
+  booktitle={ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={7745--7749},
+  year={2024},
+  organization={IEEE}
 }
 @inproceedings{yao2024PromptCARE,
   title={PromptCARE: Prompt Copyright Protection by Watermark Injection and Verification},
