@@ -1,6 +1,6 @@
 # PoisonPrompt
 
-This repository is the implementation of paper: ["PoisonPrompt: Backdoor Attack on Prompt-based Large Language Models *(IEEE ICASSP 2024)*"](https://arxiv.org/abs/2310.12439).
+This repository is the implementation of paper: ["PoisonPrompt: Backdoor Attack on Prompt-based Large Language Models *(IEEE ICASSP 2024)*"](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10446267).
 
 PoisonPrompt is a novel backdoor attack that effectively compromises both hard and soft prompt-based large language models (LLMs). 
 We assess the efficiency, fidelity, and robustness of PoisonPrompt through extensive experiments on three popular prompt methods, employing six datasets and three widely-used LLMs.
